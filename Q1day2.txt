@@ -1,0 +1,11 @@
+let fact = 1
+const Factorial = function (number) {
+    for (i = 1; i <= number; i++) {
+        fact = fact * i;
+
+    }
+    return (fact);
+
+}
+
+console.log(Factorial(3))

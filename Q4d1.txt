@@ -1,0 +1,4 @@
+const array = [2, 3, 5, 4, 7, 9, 11, 8, 6, 1];
+array.sort(function(a, b){return a - b});
+array.reverse()
+console.log(array)

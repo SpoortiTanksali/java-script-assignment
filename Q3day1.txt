@@ -1,0 +1,10 @@
+const array = [2, 3, 5, 4, 7, 9, 11, 8, 6, 1];
+for (let x in array) {
+    for (let y = 1; y < array.length; y++) {
+        if (x < array[y]) {
+            var big = array[y];
+            // console.log(big)
+        }
+    }
+}
+ console.log(big);

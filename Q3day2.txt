@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="arg"></p>
+    <script>
+        let c=0
+        function Arguments(...args){
+            total = args.length;
+            document.write(args);
+            document.write(" "+total);
+            // document.getElementById('arg').innerHTML=a,b;
+            // document.getElementById('arg').innerHTML=
+        }
+        Arguments(2,3,3,4)
+    </script>
+</body>
+</html>
